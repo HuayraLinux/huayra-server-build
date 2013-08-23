@@ -1,0 +1,31 @@
+#!/bin/sh
+
+set -e
+
+if [ -z "$CACHER" ]; then
+  MIRROR="http://ftp.debian.org/debian/"
+  MIRROR_SECURITY="http://security.debian.org/"
+else
+  MIRROR="http://$CACHER/ftp.debian.org/debian/"
+  MIRROR_SECURITY="http://$CACHER/security.debian.org/"
+fi
+
+lb config noauto \
+    --apt apt \
+    --apt-indices false \
+    --apt-recommends false \
+    --architecture amd64 \
+    --debian-installer true \
+    --zsycn false \
+    --debug \
+    --distribution wheezy \
+    --distribution wheezy \
+    --iso-application 'live-doc' \
+    --iso-publisher 'PressEnter' \
+    --iso-volume 'live-documental' \
+    --keyring-packages 'debian-archive-keyring huayra-archive-keyring' \
+    --parent-mirror-chroot $MIRROR \
+    --parent-mirror-chroot-security $MIRROR_SECURITY \
+    --parent-mirror-chroot-updates $MIRROR \
+    --mirror-debian-installer $MIRROR \
+    "${@}"
