@@ -4,9 +4,12 @@ cache/
 chroot/
 .lock
 *.chroot.packages.install
+chroot.packages.install
 *.chroot.packages.live
+chroot.packages.live
 *.binary.contents
 *.binary.packages
+binary.packages
 binary.hybrid.iso
 binary.img
 *.iso

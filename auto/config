@@ -16,7 +16,7 @@ lb config noauto \
     --apt-recommends false \
     --architecture amd64 \
     --debian-installer true \
-    --zsycn false \
+    --zsync false \
     --debug \
     --distribution wheezy \
     --distribution wheezy \
