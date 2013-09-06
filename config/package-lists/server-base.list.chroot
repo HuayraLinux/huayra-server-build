@@ -1,6 +1,7 @@
 base-files
 chromium
 chromium-l10n
+dconf-tools
 firmware-iwlwifi
 firmware-linux-free
 firmware-linux-nonfree
