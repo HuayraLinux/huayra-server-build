@@ -1,6 +1,6 @@
 [org/mate/desktop/background]
 picture-filename='/usr/share/backgrounds/huayra-server.jpg'
-picture-options='zoom'
+picture-options='stretched'
 
 [org/mate/caja/desktop]
 computer-icon-visible=false
