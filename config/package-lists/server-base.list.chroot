@@ -1,3 +1,4 @@
+acpi-support
 base-files
 chromium
 chromium-l10n
@@ -15,12 +16,14 @@ huayra-server-mini
 huayra-themes-frescoverde
 intel-microcode
 iptables
+less
 libgcc1
 lightdm
 linux-headers-amd64
 locales
 mate-core
 mate-desktop-environment
+mate-system-tools
 mc
 mobile-broadband-provider-info
 modemmanager

@@ -16,7 +16,7 @@ lb config noauto \
     --apt-recommends false \
     --architecture amd64 \
     --archive-areas 'main contrib non-free' \
-    --debian-installer true \
+    --debian-installer live \
     --zsync false \
     --debug \
     --distribution wheezy \
