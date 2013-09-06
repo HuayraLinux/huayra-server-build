@@ -15,7 +15,7 @@ huayra-server-mini
 huayra-themes-frescoverde
 intel-microcode
 iptables
-libc6
+libgcc1
 lightdm
 linux-headers-amd64
 locales

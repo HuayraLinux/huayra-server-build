@@ -1,6 +1,6 @@
 [Desktop Entry]
 Version=1.0
-Name=Instalar Huayra en tu disco
+Name=Instalar Huayra (Edición Servidor)
 Comment=Instalar Huayra permanentemente en tu disco
 Exec=su-to-root -X -c /usr/sbin/debian-installer-launcher
 Icon=file-save
