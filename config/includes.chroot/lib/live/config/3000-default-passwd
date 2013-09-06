@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo " Claves por defecto de huayra "
+echo "root:root" | chpasswd
+echo "huayra-admin:huayra-admin" | chpasswd
