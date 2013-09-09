@@ -2,6 +2,7 @@ acpi-support
 base-files
 chromium
 chromium-l10n
+conky-std
 dconf-tools
 firmware-iwlwifi
 firmware-linux-free
@@ -34,8 +35,11 @@ ssh
 sudo
 telnet
 udhcpd
+update-notifier
 virtualbox
 virtualbox-dkms
 virtualbox-qt
 wget
+wireshark
+xchat
 xserver-xorg
