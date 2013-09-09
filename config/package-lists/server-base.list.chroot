@@ -3,6 +3,7 @@ base-files
 chromium
 chromium-l10n
 conky-std
+cups
 dconf-tools
 firmware-iwlwifi
 firmware-linux-free
