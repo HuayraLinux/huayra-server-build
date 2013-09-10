@@ -1,5 +1,6 @@
 acpi-support
 base-files
+caja-open-terminal
 chromium
 chromium-l10n
 conky-std

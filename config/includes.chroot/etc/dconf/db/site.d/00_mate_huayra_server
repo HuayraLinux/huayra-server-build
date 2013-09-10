@@ -32,3 +32,5 @@ icon-theme='huayra-fresco-verde'
 num-workspaces=1
 button-layout=':minimize,maximize,close'
 theme='HuayraFrescoVerde'
+compositing-manager=true
+compositing-fast-alt-tab=true
