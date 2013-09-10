@@ -9,6 +9,8 @@ firmware-iwlwifi
 firmware-linux-free
 firmware-linux-nonfree
 firmware-realtek
+fusioninventory-agent
+libfusioninventory-agent-task-deploy-perl
 gawk
 grub2
 huayra-base
