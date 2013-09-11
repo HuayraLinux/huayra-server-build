@@ -5,6 +5,7 @@ chromium
 chromium-l10n
 conky-std
 cups
+curl
 dconf-tools
 firmware-iwlwifi
 firmware-linux-free
@@ -33,6 +34,7 @@ mc
 mobile-broadband-provider-info
 modemmanager
 network-manager-gnome
+nmap
 plymouth-themes-huayra
 ppp
 ssh
