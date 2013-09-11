@@ -38,6 +38,7 @@ network-manager-gnome
 nmap
 plymouth-themes-huayra
 ppp
+rfkill
 ssh
 sudo
 telnet
