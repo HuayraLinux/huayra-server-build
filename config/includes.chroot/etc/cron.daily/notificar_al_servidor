@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ADDR=`/sbin/ifconfig eth0 | grep HWaddr |cut -dH -f2|cut -d\  -f2`
+curl -d "mac=$ADDR" http://190.2.11.123/stats/api/puntos
