@@ -38,7 +38,6 @@ TEXT
 Host: ${color}${nodename}
 Linux kernel: ${kernel}
 Uptime: ${uptime}
-Batería: ${battery_bar 4,125}${battery_time}
 
 Uso CPU: ${cpu}%
 RAM libre: ${memeasyfree} / ${memmax}
