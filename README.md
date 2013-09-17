@@ -8,13 +8,17 @@ Construir
 
 Usar sudo o permisos de root
 
-$ sudo lb config
-$ sudo lb build
+```bash
+# lb config
+# lb build
+```
 
 En caso de tener un apt-cacher corriendo se puede hacer:
 
-$ sudo CACHER=127.0.0.1:3142 lb config
-$ sudo CACHER=127.0.0.1:3142 lb build
+```bash
+# CACHER=127.0.0.1:3142 lb config
+# CACHER=127.0.0.1:3142 lb build
+```
 
 
 
