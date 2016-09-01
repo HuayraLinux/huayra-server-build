@@ -25,12 +25,12 @@ automount-open=false
 lock-enabled=false
 
 [org/mate/desktop/interface]
-gtk-theme='HuayraFrescoVerde'
-icon-theme='huayra-fresco-verde'
+gtk-theme='HuayraLiso'
+icon-theme='huayra-liso'
 
 [org/mate/marco/general]
 num-workspaces=1
 button-layout=':minimize,maximize,close'
-theme='HuayraFrescoVerde'
+theme='HuayraLiso'
 compositing-manager=true
 compositing-fast-alt-tab=true

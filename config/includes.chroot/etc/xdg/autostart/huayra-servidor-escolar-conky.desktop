@@ -1,4 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Informacion en el escritorio
-Exec=conky -c /usr/share/huayra-servidor-escolar/conkyrc -p 15
