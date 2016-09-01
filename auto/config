@@ -19,16 +19,16 @@ lb config noauto \
     --debian-installer live \
     --zsync false \
     --debug \
-    --distribution wheezy \
+    --distribution jessie \
     --iso-application 'Huayra GNU/Linux' \
     --iso-publisher 'Conectar Igualdad; http://www.conectarigualdad.gob.ar/; info@conectarigualdad.gob.ar' \
-    --iso-volume 'Huayra GNU/Linux' \
-    --keyring-packages 'debian-archive-keyring huayra-archive-keyring mate-archive-keyring' \
-    --parent-mirror-binary http://ftp.debian.org/debian/ \
-    --mirror-binary http://ftp.debian.org/debian/ \
+    --iso-volume 'Huayra GNU/Linux Server' \
+    --keyring-packages 'debian-archive-keyring huayra-archive-keyring' \
+    --mirror-bootstrap $MIRROR \
     --parent-mirror-chroot $MIRROR \
     --parent-mirror-chroot-security $MIRROR_SECURITY \
-    --parent-mirror-chroot-updates $MIRROR \
     --mirror-debian-installer $MIRROR \
+    --security true \
+    --updates true \
     --system live \
     "${@}"

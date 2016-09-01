@@ -1,0 +1,10 @@
+[Image]
+Architecture: amd64
+Archive-Areas: main contrib non-free
+Distribution: jessie
+Mirror-Bootstrap: http://192.168.250.1:3142/ftp.debian.org/debian/
+
+[FIXME]
+Configuration-Version: 4.0.3
+Name: live-image
+Type: iso-hybrid
